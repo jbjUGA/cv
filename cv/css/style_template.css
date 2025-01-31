@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Nav Styles */
+nav {
+    background-color: crimson;
+    color: azure;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav p, nav a {}
+
+nav a {
+    color:azure
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: cornflowerblue;
+    color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+footer a {
+    color:darkslateblue;
+}
+
+footer a:hover {
+    color:black;
+}
+
+/* Splash Section */
+.splash {
+    text-align: center;
+    background:  url('images/Jones_Headshot.jpg');
+    background-size: cover;
+}
+
+.splash h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 20px;
+}
+
+.splash img {
+    border-radius: 40%;
+    border: 3px red;
+}
+
+.splash p {
+    font-style: italic;
+    color: crimson;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 0;
+    border-bottom: 3px solid crimson;
+    border-top: 3px solid deepskyblue;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color:deepskyblue;
+    font-size: 30px;
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {
+    color:deepskyblue;
+    text-decoration: none;
+}
+section a:hover {
+    color: crimson;
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc;
+}
+
+dl {
+    display: grid;
+}
+dl dt{}
+dl dd{}
+
+.education .ed {
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+} 
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+.card {
+    background-color: crimson;
+    box-shadow: 0cap;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: auto;
+}
+
+.card h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 14px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    width: 100%;
+    font-size: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    min-height: 30px;
+    border-color: black;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    background-color: white;
+    background-color: crimson;
+}
+
+form button:hover {
+    background-color:cornflowerblue;
+}
